@@ -42,7 +42,7 @@
 // **************** UNCOMMENT THIS BEFORE DEPLOYING TO PRODUCTION ********************************
 
 
-
+//test
 $url = parse_url(getenv('DATABASE_URL') ? getenv('DATABASE_URL') : getenv('CLEARDB_DATABASE_URL'));
 
 define('DB_NAME', trim($url['path'], '/'));
